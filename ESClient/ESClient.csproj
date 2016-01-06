@@ -228,8 +228,6 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Areas\Admin\Asset\bower_components\bootstrap-social\.gitignore" />
-    <Content Include="Areas\Admin\Asset\bower_components\bootstrap-social\bootstrap-social.css" />
     <Content Include="Areas\Admin\Asset\bower_components\bootstrap\dist\css\bootstrap-theme.css" />
     <Content Include="Areas\Admin\Asset\bower_components\bootstrap\dist\css\bootstrap-theme.min.css" />
     <Content Include="Areas\Admin\Asset\bower_components\bootstrap\dist\css\bootstrap.css" />
@@ -881,12 +879,6 @@
     <Content Include="Scripts\controllers\Product.js" />
     <Content Include="Scripts\errors.json" />
     <Content Include="Areas\Admin\Views\web.config" />
-    <Content Include="Areas\Admin\Asset\bower_components\bootstrap-social\.bower.json" />
-    <Content Include="Areas\Admin\Asset\bower_components\bootstrap-social\.editorconfig" />
-    <Content Include="Areas\Admin\Asset\bower_components\bootstrap-social\bootstrap-social.less" />
-    <Content Include="Areas\Admin\Asset\bower_components\bootstrap-social\bootstrap-social.scss" />
-    <Content Include="Areas\Admin\Asset\bower_components\bootstrap-social\bower.json" />
-    <Content Include="Areas\Admin\Asset\bower_components\bootstrap-social\README.md" />
     <Content Include="Areas\Admin\Asset\bower_components\bootstrap\.bower.json" />
     <Content Include="Areas\Admin\Asset\bower_components\bootstrap\bower.json" />
     <Content Include="Areas\Admin\Asset\bower_components\bootstrap\dist\css\bootstrap-theme.css.map" />
@@ -2018,6 +2010,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Asset\bower_components\bootstrap-social\" />
     <Folder Include="Areas\Admin\Code\" />
     <Folder Include="Areas\Admin\Models\" />
   </ItemGroup>
