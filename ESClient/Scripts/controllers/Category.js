@@ -1,6 +1,6 @@
 ﻿(function () {
     var app = angular.module('myapp', []);
-    var url = "http://localhost:7009/";
+    var url = "http://apicnhd.somee.com/";
 
     app.controller("ManufactoryManage", function ($scope, $http) {
         $http.get(url + 'api/Manufactory/AllManu').
